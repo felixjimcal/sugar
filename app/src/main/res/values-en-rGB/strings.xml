@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sugar</string>
+    <string name="metric">Metric</string>
+    <string name="imperial">Imperial</string>
+    <string name="sugar_quantity">Sugar quantity</string>
+    <string name="hint_sugar">12.6</string>
+    <string name="quantity_example">Nutritional information by</string>
+    <string name="hint_sugar_example">100</string>
+    <string name="total_product">Total product</string>
+    <string name="hint_total_product">300</string>
+    <string name="hint_total_sugar">Total sugar</string>
+    <string name="calculate">Calculate</string>
+
+    // Units
+    <string name="mililitros">ml (milliliters)</string>
+    <string name="centilitros">cl (centiliter)</string>
+    <string name="decilitros">dl (deciliter)</string>
+    <string name="litros">l (liter)</string>
+    <string name="dekalitros">dal (dekaliter)</string>
+    <string name="hectolitros">hl (hectoliter)</string>
+    <string name="kilolitros">kl (kiloliter)</string>
+    <string name="kilogramos">kg (kilogram)</string>
+    <string name="hectogramos">hg (hectogram)</string>
+    <string name="dekagramos">dag (dekagram)</string>
+    <string name="gramos">g (gram)</string>
+    <string name="decigramos">dg (decigram)</string>
+    <string name="centigramos">cg (centigram)</string>
+    <string name="miligramo">mg (miligram)</string>
+    <string name="onza">ounce (fluid)</string>
+    <string name="total_terrones">Total cubes</string>
+    <string name="message">The WHO (World Health Organization) recommends a maximum daily consumption of 26 grams of sugar, the equivalent of 6 sugar cubes. (2015)</string>
+
+</resources>
