@@ -1,9 +1,9 @@
 # Sugar Calculator
-Android application to check the sugar in products
+Android application to check the sugar in processed products
 
 ## Getting Started
 
-It's an android studio, so download it.
+It's an android studio project, built with distro 21.
 
 ### Prerequisites
 
@@ -15,7 +15,7 @@ AndroidStudio
 
 ### Installing
 
-Install Android Studio and run
+Install Android Studio for debbug. Go to PlayStore to download (https://play.google.com/store/apps/details?id=cat.zarpa.felix.sugar)
 
 ## Authors
 
@@ -27,4 +27,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* My daily life
+* My daily life practice, Code Complete 2, StackOverFlow.
