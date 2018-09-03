@@ -24,7 +24,7 @@
                 android:textOff="@string/metric"
                 android:textOn="@string/imperial"
                 android:paddingBottom="15dp"
-                android:enabled="false"/>
+                android:enabled="true"/>
 
         </LinearLayout>
 
