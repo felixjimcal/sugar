@@ -1,9 +1,10 @@
 package com.zarpa.felix.sugar;
 
-import com.zarpa.felix.sugar.Calculator;
-
 import org.junit.Assert;
 import org.junit.Test;
+
+import cat.zarpa.felix.sugar.Transformator;
+import cat.zarpa.felix.sugar.Calculator;
 
 import static org.hamcrest.core.Is.is;
 
@@ -15,12 +16,20 @@ public class PrintTotalSugarFeature {
     @Test
     public void PrintTotalOfSugarInAProcessedProduct()
     {
-        int sugar_example = 5, example_quantity = 100, total_product = 33;
+        double sugar_example, example_quantity, total_product;
+
+        // Grams
+        sugar_example = Transformator.transformUnitToBaseUnit(50, 10);
+
+        // Mililiters
+        example_quantity = Transformator.transformUnitToBaseUnit(100, 0);
+
+        // Centiliters
+        total_product = Transformator.transformUnitToBaseUnit(33, 1);
 
         Calculator calculator = new Calculator();
-        int total_sugar = calculator.calculate(sugar_example, example_quantity, total_product);
+        double total_sugar = calculator.calculate(sugar_example, example_quantity, total_product);
 
-        Assert.assertThat(total_sugar, is(100));
+        Assert.assertThat(total_sugar, is(165.0));
     }
-
 }

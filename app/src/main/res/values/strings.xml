@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Azúcar</string>
+    <string name="app_name">Sugar</string>
     <string name="metric">Metrico</string>
     <string name="imperial">Imperial</string>
     <string name="sugar_quantity">Cantidad azúcar</string>
@@ -30,5 +30,22 @@
     <string name="onza">onza (fluidos)</string>
     <string name="total_terrones">Total terrones</string>
     <string name="message">La OMS (Organización Mundial de la Salud) recomienda un consumo máximo diario de 26 gramos de azúcar, el equivalente a 6 terrones. (2015)</string>
+
+    // Identifier
+    <string name="id_mililitros">0</string>
+    <string name="id_centilitros">1</string>
+    <string name="id_decilitros">2</string>
+    <string name="id_litros">3</string>
+    <string name="id_dekalitros">4</string>
+    <string name="id_hectolitros">5</string>
+    <string name="id_kilolitros">6</string>
+    <string name="id_kilogramos">7</string>
+    <string name="id_hectogramos">8</string>
+    <string name="id_dekagramos">9</string>
+    <string name="id_gramos">10</string>
+    <string name="id_decigramos">11</string>
+    <string name="id_centigramos">12</string>
+    <string name="id_miligramo">13</string>
+
 
 </resources>

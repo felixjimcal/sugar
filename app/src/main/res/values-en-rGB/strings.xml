@@ -17,12 +17,12 @@
     <string name="centilitros">cl (centiliter)</string>
     <string name="decilitros">dl (deciliter)</string>
     <string name="litros">l (liter)</string>
-    <string name="dekalitros">dal (dekaliter)</string>
-    <string name="hectolitros">hl (hectoliter)</string>
+    <string name="dekalitros">dal (dekaliters)</string>
+    <string name="hectolitros">hl (hectoliters)</string>
     <string name="kilolitros">kl (kiloliter)</string>
     <string name="kilogramos">kg (kilogram)</string>
     <string name="hectogramos">hg (hectogram)</string>
-    <string name="dekagramos">dag (dekagram)</string>
+    <string name="dekagramos">dag (dekagrams)</string>
     <string name="gramos">g (gram)</string>
     <string name="decigramos">dg (decigram)</string>
     <string name="centigramos">cg (centigram)</string>
