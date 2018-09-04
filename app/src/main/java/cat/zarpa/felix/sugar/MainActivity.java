@@ -48,7 +48,7 @@ public class MainActivity extends Activity {
         metric = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, metric_measuring);
         imperial = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, imperial_measuring);
 
-        // First fill spinners
+        // Fill spinners
         SetMeasuring(metric);
 
         switch_measuring.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
