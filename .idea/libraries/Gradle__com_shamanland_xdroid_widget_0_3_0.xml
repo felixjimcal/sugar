@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.shamanland:xdroid-widget-0.3.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xdroid-widget-0.3.0.aar/0a49e3af6944718ea688fd64b8e698c5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xdroid-widget-0.3.0.aar/0a49e3af6944718ea688fd64b8e698c5/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.shamanland/xdroid-widget/0.3.0/210cb8d2af08e1aa90f86974ac3443be2f50bfbe/xdroid-widget-0.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

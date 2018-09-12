@@ -14,21 +14,22 @@
 
     // Units
     <string name="mililitros">ml (milliliters)</string>
-    <string name="centilitros">cl (centiliter)</string>
-    <string name="decilitros">dl (deciliter)</string>
-    <string name="litros">l (liter)</string>
+    <string name="centilitros">cl (centiliters)</string>
+    <string name="decilitros">dl (deciliters)</string>
+    <string name="litros">l (liters)</string>
     <string name="dekalitros">dal (dekaliters)</string>
     <string name="hectolitros">hl (hectoliters)</string>
-    <string name="kilolitros">kl (kiloliter)</string>
-    <string name="kilogramos">kg (kilogram)</string>
-    <string name="hectogramos">hg (hectogram)</string>
+    <string name="kilolitros">kl (kiloliters)</string>
+    <string name="kilogramos">kg (kilograms)</string>
+    <string name="hectogramos">hg (hectograms)</string>
     <string name="dekagramos">dag (dekagrams)</string>
-    <string name="gramos">g (gram)</string>
-    <string name="decigramos">dg (decigram)</string>
-    <string name="centigramos">cg (centigram)</string>
-    <string name="miligramo">mg (miligram)</string>
-    <string name="onza">ounce (fluid)</string>
-    <string name="total_terrones">Total cubes</string>
+    <string name="gramos">g (grams)</string>
+    <string name="decigramos">dg (decigrams)</string>
+    <string name="centigramos">cg (centigrams)</string>
+    <string name="miligramo">mg (miligrams)</string>
+    <string name="onza">onza (fluids)</string>
+    <string name="total_terrones">Total blocks</string>
+
     <string name="message">The WHO (World Health Organization) recommends a maximum daily consumption of 26 grams of sugar, the equivalent of 6 sugar cubes. (2015)</string>
 
 </resources>

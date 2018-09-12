@@ -22,8 +22,7 @@ import android.widget.Toast;
 
 import com.zarpa.felix.sugar.R;
 
-import java.util.ArrayList;
-import java.util.List;
+import javax.xml.transform.Templates;
 
 public class MainActivity extends Activity {
 
@@ -32,8 +31,8 @@ public class MainActivity extends Activity {
     private Button btn_calculate;
     private Spinner sugar_quantity, sugar_example, total_product;
     private Switch switch_measuring;
-    private ArrayAdapter<String> metric, imperial;
-    private List<String> metric_measuring = new ArrayList<>(), imperial_measuring = new ArrayList<>();
+    private ArrayAdapter<Metric> metric_parameters;
+    private ArrayAdapter<Imperial> imperial_parameters;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,24 +40,19 @@ public class MainActivity extends Activity {
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
 
-        AddUnits();
-
         LoadWidgets();
 
-        metric = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, metric_measuring);
-        imperial = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, imperial_measuring);
+        metric_parameters = new ArrayAdapter<Metric>(this, android.R.layout.simple_spinner_dropdown_item, Metric.values());
+        imperial_parameters = new ArrayAdapter<Imperial>(this, android.R.layout.simple_spinner_dropdown_item, Imperial.values());
 
-        // Fill spinners
-        SetMeasuring(metric);
+        SetMeasuring(metric_parameters);
 
         switch_measuring.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
-                    SetMeasuring(imperial);
-                    // is_metric = false;
+                    SetMeasuring(imperial_parameters);
                 } else {
-                    SetMeasuring(metric);
-                    // is_metric = true;
+                    SetMeasuring(metric_parameters);
                 }
             }
         });
@@ -73,24 +67,27 @@ public class MainActivity extends Activity {
                     // Collect data
                     // ----------------------------------------------------------------
                     sugar = Double.parseDouble(txt_sugar_quantity.getText().toString());
-                    sugar_unit = sugar_quantity.getSelectedItemPosition();
+                    sugar_unit = ((Metric) sugar_quantity.getSelectedItem()).getId();
 
                     example = Double.parseDouble(txt_sugar_example.getText().toString());
-                    example_unit = sugar_example.getSelectedItemPosition();
+                    example_unit = ((Metric) sugar_example.getSelectedItem()).getId();
 
                     product = Double.parseDouble(txt_total_product.getText().toString());
-                    product_unit = total_product.getSelectedItemPosition();
+                    product_unit = ((Metric) total_product.getSelectedItem()).getId();
 
-                    // Transform to base unit (grams , liters)
+                    // Transform to base unit (grams, liters)
                     // ----------------------------------------------------------------
-                    sugar = TransformUnitToBaseUnit(sugar, sugar_unit);
-                    example = TransformUnitToBaseUnit(example, example_unit);
-                    product = TransformUnitToBaseUnit(product, product_unit);
+                    sugar = Transformator.transformUnitToBaseUnit(sugar, sugar_unit);
+                    example = Transformator.transformUnitToBaseUnit(example, example_unit);
+                    product = Transformator.transformUnitToBaseUnit(product, product_unit);
 
                     // Do the maths
-                    total_sugar = product / example * sugar;
+                    // ----------------------------------------------------------------
+                    total_sugar = Calculator.calculate(sugar, example, product);
+                    cubes = total_sugar / 4;
 
-                    cubes = (total_sugar / 4);
+                    // Show the text
+                    // ----------------------------------------------------------------
                     @SuppressLint("DefaultLocale")
                     String text = getResources().getString(R.string.hint_total_sugar) + ": " + String.format("%.1f", total_sugar) + " g " +
                             getResources().getString(R.string.total_terrones) + ": " + String.format("%.1f", cubes);
@@ -101,95 +98,15 @@ public class MainActivity extends Activity {
 
                 } catch (Exception ex) {
                     ShowToast(ex.getMessage());
-
                 }
             }
         });
     }
 
-    private void AddUnits() {
-        metric_measuring.add(getResources().getString(R.string.mililitros));
-        metric_measuring.add(getResources().getString(R.string.centilitros));
-        metric_measuring.add(getResources().getString(R.string.decilitros));
-        metric_measuring.add(getResources().getString(R.string.litros));
-        metric_measuring.add(getResources().getString(R.string.dekalitros));
-        metric_measuring.add(getResources().getString(R.string.hectolitros));
-        metric_measuring.add(getResources().getString(R.string.kilolitros));
-        metric_measuring.add(getResources().getString(R.string.miligramo));
-        metric_measuring.add(getResources().getString(R.string.centigramos));
-        metric_measuring.add(getResources().getString(R.string.decigramos));
-        metric_measuring.add(getResources().getString(R.string.gramos));
-        metric_measuring.add(getResources().getString(R.string.dekagramos));
-        metric_measuring.add(getResources().getString(R.string.hectogramos));
-        metric_measuring.add(getResources().getString(R.string.kilogramos));
-
-        imperial_measuring.add(getResources().getString(R.string.onza));
-    }
-
-    private double TransformUnitToBaseUnit(double value, int unit) {
-        switch (unit) {
-            case 0:
-                value = value / 1000;
-                break;
-
-            case 1:
-                value = value / 100;
-                break;
-
-            case 2:
-                value = value / 10;
-                break;
-
-            // case 3 liters
-
-            case 4:
-                value = value * 10;
-                break;
-
-            case 5:
-                value = value * 100;
-                break;
-
-            case 6:
-                value = value * 1000;
-                break;
-
-            case 7:
-                value = value / 1000;
-                break;
-
-            case 8:
-                value = value / 100;
-                break;
-
-            case 9:
-                value = value / 10;
-                break;
-
-            // case 10 grams
-
-            case 11:
-                value = value * 10;
-                break;
-
-            case 12:
-                value = value * 100;
-                break;
-
-            case 13:
-                value = value * 1000;
-                break;
-
-            default:
-                break;
-        }
-        return value;
-    }
-
-    private void SetMeasuring(ArrayAdapter<String> units) {
-        sugar_quantity.setAdapter(units);
-        sugar_example.setAdapter(units);
-        total_product.setAdapter(units);
+    private void SetMeasuring(ArrayAdapter<T> parameters) {
+        sugar_quantity.setAdapter(parameters);
+        sugar_example.setAdapter(parameters);
+        total_product.setAdapter(parameters);
     }
 
     public void ShowToast(String text) {

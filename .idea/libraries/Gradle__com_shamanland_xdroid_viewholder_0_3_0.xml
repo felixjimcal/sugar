@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.shamanland:xdroid-viewholder-0.3.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xdroid-viewholder-0.3.0.aar/9d0d021e356b1d9d8fd70cef2ecc3baf/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xdroid-viewholder-0.3.0.aar/9d0d021e356b1d9d8fd70cef2ecc3baf/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.shamanland/xdroid-viewholder/0.3.0/c8ba37be2a02db3458e22133fa8a6e40fd8a68df/xdroid-viewholder-0.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
