@@ -4,7 +4,7 @@ package cat.zarpa.felix.sugar;
  * Created by ${Felix} on ${16//11/2017}.
  */
 public enum Imperial {
-    oz(14);
+    oz(1);
 
     private final int id;
 

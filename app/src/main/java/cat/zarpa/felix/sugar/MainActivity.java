@@ -22,17 +22,16 @@ import android.widget.Toast;
 
 import com.zarpa.felix.sugar.R;
 
-import javax.xml.transform.Templates;
-
 public class MainActivity extends Activity {
 
     private TextView total_text, text_message;
     private EditText txt_sugar_quantity, txt_sugar_example, txt_total_product;
     private Button btn_calculate;
-    private Spinner sugar_quantity, sugar_example, total_product;
+    private Spinner unit_quantity, unit_example, unit_product;
     private Switch switch_measuring;
     private ArrayAdapter<Metric> metric_parameters;
     private ArrayAdapter<Imperial> imperial_parameters;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,8 +41,8 @@ public class MainActivity extends Activity {
 
         LoadWidgets();
 
-        metric_parameters = new ArrayAdapter<Metric>(this, android.R.layout.simple_spinner_dropdown_item, Metric.values());
-        imperial_parameters = new ArrayAdapter<Imperial>(this, android.R.layout.simple_spinner_dropdown_item, Imperial.values());
+        metric_parameters = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, Metric.values());
+        imperial_parameters = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, Imperial.values());
 
         SetMeasuring(metric_parameters);
 
@@ -67,13 +66,13 @@ public class MainActivity extends Activity {
                     // Collect data
                     // ----------------------------------------------------------------
                     sugar = Double.parseDouble(txt_sugar_quantity.getText().toString());
-                    sugar_unit = ((Metric) sugar_quantity.getSelectedItem()).getId();
+                    sugar_unit = Receptor.GetUnit(switch_measuring.isChecked(), unit_quantity);
 
                     example = Double.parseDouble(txt_sugar_example.getText().toString());
-                    example_unit = ((Metric) sugar_example.getSelectedItem()).getId();
+                    example_unit = Receptor.GetUnit(switch_measuring.isChecked(), unit_example);
 
                     product = Double.parseDouble(txt_total_product.getText().toString());
-                    product_unit = ((Metric) total_product.getSelectedItem()).getId();
+                    product_unit = Receptor.GetUnit(switch_measuring.isChecked(), unit_product);
 
                     // Transform to base unit (grams, liters)
                     // ----------------------------------------------------------------
@@ -103,10 +102,10 @@ public class MainActivity extends Activity {
         });
     }
 
-    private void SetMeasuring(ArrayAdapter<T> parameters) {
-        sugar_quantity.setAdapter(parameters);
-        sugar_example.setAdapter(parameters);
-        total_product.setAdapter(parameters);
+    public <E> void SetMeasuring(ArrayAdapter<E> parameters) {
+        unit_quantity.setAdapter(parameters);
+        unit_example.setAdapter(parameters);
+        unit_product.setAdapter(parameters);
     }
 
     public void ShowToast(String text) {
@@ -121,9 +120,9 @@ public class MainActivity extends Activity {
         txt_sugar_example = findViewById(R.id.edit_txt_sugar_example);
         txt_total_product = findViewById(R.id.edit_txt_total_product);
 
-        sugar_quantity = findViewById(R.id.spinner_sugar);
-        sugar_example = findViewById(R.id.spinner_sugar_example);
-        total_product = findViewById(R.id.spinner_total_product);
+        unit_quantity = findViewById(R.id.spinner_sugar);
+        unit_example = findViewById(R.id.spinner_sugar_example);
+        unit_product = findViewById(R.id.spinner_total_product);
 
         switch_measuring = findViewById(R.id.switch_measuring);
         total_text = findViewById(R.id.txt_total);
