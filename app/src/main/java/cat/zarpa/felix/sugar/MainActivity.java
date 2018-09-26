@@ -65,7 +65,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 try {
-                    double sugar, example, product, total_sugar, cubes;
+                    double sugar, example, product, total_sugar, sugar_cubes;
                     int sugar_unit, example_unit, product_unit;
 
                     // Collect data
@@ -87,14 +87,14 @@ public class MainActivity extends Activity {
 
                     // Do the maths
                     // ----------------------------------------------------------------
-                    total_sugar = Calculator.calculate(sugar, example, product);
-                    cubes = total_sugar / 4;
+                    total_sugar = Calculator.calculate_sugar(sugar, example, product);
+                    sugar_cubes = Calculator.calculate_cubes(total_sugar);
 
                     // Show the text
                     // ----------------------------------------------------------------
                     @SuppressLint("DefaultLocale")
                     String text = getResources().getString(R.string.hint_total_sugar) + ": " + String.format("%.1f", total_sugar) + " g " +
-                            getResources().getString(R.string.total_terrones) + ": " + String.format("%.1f", cubes);
+                            getResources().getString(R.string.total_terrones) + ": " + String.format("%.1f", sugar_cubes);
 
                     total_text.setText(text);
 
