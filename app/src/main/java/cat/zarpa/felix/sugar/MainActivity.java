@@ -2,26 +2,19 @@ package cat.zarpa.felix.sugar;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.CompoundButton;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.Spinner;
-import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -33,9 +26,6 @@ public class MainActivity extends Activity {
     private EditText txt_sugar_quantity, txt_sugar_example, txt_total_product;
     private Button btn_calculate;
     private Spinner unit_quantity, unit_example, unit_product;
-    private Switch switch_measuring;
-    private ArrayAdapter<Metric> metric_parameters;
-    private ArrayAdapter<Imperial> imperial_parameters;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,21 +35,9 @@ public class MainActivity extends Activity {
 
         LoadWidgets();
 
-        metric_parameters = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, Metric.values());
-        imperial_parameters = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, Imperial.values());
+        ArrayAdapter<Metric> metric_parameters = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, Metric.values());
 
         SetMeasuring(metric_parameters);
-
-        switch_measuring.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (isChecked) {
-                    SetMeasuring(imperial_parameters);
-
-                } else {
-                    SetMeasuring(metric_parameters);
-                }
-            }
-        });
 
         btn_calculate.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -71,13 +49,13 @@ public class MainActivity extends Activity {
                     // Collect data
                     // ----------------------------------------------------------------
                     sugar = Double.parseDouble(txt_sugar_quantity.getText().toString());
-                    sugar_unit = Receptor.GetUnit(switch_measuring.isChecked(), unit_quantity);
+                    sugar_unit = Receptor.GetUnit(unit_quantity);
 
                     example = Double.parseDouble(txt_sugar_example.getText().toString());
-                    example_unit = Receptor.GetUnit(switch_measuring.isChecked(), unit_example);
+                    example_unit = Receptor.GetUnit(unit_example);
 
                     product = Double.parseDouble(txt_total_product.getText().toString());
-                    product_unit = Receptor.GetUnit(switch_measuring.isChecked(), unit_product);
+                    product_unit = Receptor.GetUnit(unit_product);
 
                     // Transform to base unit (grams, liters)
                     // ----------------------------------------------------------------
@@ -93,7 +71,7 @@ public class MainActivity extends Activity {
                     // Show the text
                     // ----------------------------------------------------------------
                     @SuppressLint("DefaultLocale")
-                    String text = getResources().getString(R.string.hint_total_sugar) + ": " + String.format("%.1f", total_sugar) + " g " +
+                    String text = getResources().getString(R.string.text_total_sugar) + ": " + String.format("%.1f", total_sugar) + " g " +
                             getResources().getString(R.string.total_terrones) + ": " + String.format("%.1f", sugar_cubes);
 
                     total_text.setText(text);
@@ -130,7 +108,6 @@ public class MainActivity extends Activity {
         unit_example = findViewById(R.id.spinner_sugar_example);
         unit_product = findViewById(R.id.spinner_total_product);
 
-        switch_measuring = findViewById(R.id.switch_measuring);
         total_text = findViewById(R.id.txt_total);
         text_message = findViewById(R.id.txt_message);
         btn_calculate = findViewById(R.id.button);

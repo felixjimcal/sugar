@@ -7,17 +7,10 @@ import android.widget.Spinner;
  */
 class Receptor {
 
-    public static int GetUnit(boolean isImperial, Spinner unit_quantity) {
+    public static int GetUnit(Spinner unit_quantity) {
         int id = 0;
 
-        if (isImperial)
-        {
-            id = ((Imperial) unit_quantity.getSelectedItem()).getId();
-
-        }
-        else {
-            id = ((Metric) unit_quantity.getSelectedItem()).getId();
-        }
+        id = ((Metric) unit_quantity.getSelectedItem()).getId();
 
         return id;
     }

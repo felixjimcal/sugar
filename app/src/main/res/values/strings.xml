@@ -9,7 +9,7 @@
     <string name="hint_sugar_example">100</string>
     <string name="total_product">Total producto</string>
     <string name="hint_total_product">300</string>
-    <string name="hint_total_sugar">Total azúcar</string>
+    <string name="text_total_sugar">Total azúcar</string>
     <string name="calculate">Calcular</string>
 
     // Units
