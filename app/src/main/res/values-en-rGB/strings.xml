@@ -32,4 +32,6 @@
 
     <string name="message">The WHO (World Health Organization) recommends a maximum daily consumption of 26 grams of sugar, the equivalent of 6 sugar cubes. (2015)</string>
 
+    <string name="wrong_number_input">Empty value</string>
+
 </resources>

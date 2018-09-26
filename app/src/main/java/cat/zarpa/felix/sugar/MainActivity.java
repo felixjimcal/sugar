@@ -95,8 +95,9 @@ public class MainActivity extends Activity {
 
                     text_message.setText(getResources().getString(R.string.message));
 
-                } catch (Exception ex) {
-                    ShowToast(ex.getMessage());
+                } catch (NumberFormatException ex) {
+                    String message = getResources().getString(R.string.wrong_number_input);
+                    ShowToast(message);
                 }
             }
         });
