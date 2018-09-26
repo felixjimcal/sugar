@@ -30,9 +30,7 @@
     <string name="onza">onza (fluidos)</string>
     <string name="total_terrones">Total terrones</string>
 
-
     <string name="message">La OMS (Organización Mundial de la Salud) recomienda un consumo máximo diario de 26 gramos de azúcar, el equivalente a 6 terrones. (2015)</string>
-
 
     <string name="wrong_number_input">Valor vacío</string>
 </resources>

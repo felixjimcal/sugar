@@ -14,20 +14,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="497eec64-c877-4406-b625-9b764e6ab774" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/sample.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/cat/zarpa/felix/sugar/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/cat/zarpa/felix/sugar/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values-en-rGB/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-en-rGB/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,17 +55,17 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/cat/zarpa/felix/sugar/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
+            <state relative-caret-position="1782">
+              <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
               <folding>
-                <element signature="e#1665#2008#0" expanded="true" />
-                <element signature="e#2007#2008#0" expanded="true" />
-                <element signature="e#2053#4424#0" expanded="true" />
-                <element signature="e#3873#3924#0" expanded="true" />
-                <element signature="e#4007#4056#0" expanded="true" />
-                <element signature="e#4185#4227#0" expanded="true" />
-                <element signature="e#4321#4374#0" expanded="true" />
-                <element signature="e#4423#4424#0" expanded="true" />
+                <element signature="e#1769#2200#0" expanded="true" />
+                <element signature="e#2199#2200#0" expanded="true" />
+                <element signature="e#2245#4649#0" expanded="true" />
+                <element signature="e#4065#4116#0" expanded="true" />
+                <element signature="e#4199#4248#0" expanded="true" />
+                <element signature="e#4377#4419#0" expanded="true" />
+                <element signature="e#4513#4566#0" expanded="true" />
+                <element signature="e#4648#4649#0" expanded="true" />
                 <element signature="method#SetMeasuring#0;class#MainActivity#0" />
                 <element signature="method#ShowToast#0;class#MainActivity#0" />
                 <element signature="method#LoadWidgets#0;class#MainActivity#0" />
@@ -72,18 +74,6 @@
                 <element signature="method#OpenInstagramProfile#0;class#MainActivity#0" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
           </provider>
         </entry>
       </file>
@@ -2399,7 +2389,6 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/res/values-en-rUS/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu_main" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/felix/sugar/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/zarpa/felix/sugar/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/androidTest/java/com/zarpa/felix/sugar/ExampleInstrumentedTest.java" />
@@ -2435,8 +2424,11 @@
         <option value="$PROJECT_DIR$/app/src/main/java/cat/zarpa/felix/sugar/Receptor.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-en-rGB/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/cat/zarpa/felix/sugar/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/sample.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cat/zarpa/felix/sugar/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -2528,13 +2520,19 @@
               <item name="sugar" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
             <path>
               <item name="sugar" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="menu" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="sugar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
           </expand>
           <select />
@@ -2918,32 +2916,43 @@
       <configuration name="TransformatorShould.TransformUnitToBaseUnit" configurationId="AndroidJUnit" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="43" y="24" width="939" height="1056" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
       <window_info id="Build Variants" order="2" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50839865" side_tool="true" weight="0.28972974" />
-      <window_info anchor="right" id="Preview" order="3" weight="0.3281075" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49530128" weight="0.3171521" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49546486" visible="true" weight="0.6345946" />
-      <window_info anchor="bottom" id="Logcat" order="7" />
-      <window_info id="Captures" order="2" weight="0.2498618" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50839865" side_tool="true" weight="0.28972974" />
+      <window_info anchor="bottom" id="Logcat" order="11" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25531915" />
       <window_info anchor="right" id="Assistant" weight="0.38558164" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49160135" weight="0.2224554" />
-      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="bottom" id="Build" order="12" sideWeight="0.49160135" weight="0.2224554" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.2498618" />
       <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3956757" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32972974" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Preview" order="3" weight="0.33370662" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49530128" weight="0.31675676" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49546486" weight="0.23714586" />
+      <window_info id="Captures" order="2" weight="0.2498618" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1881299" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32938644" />
+      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="StringPreview" order="4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -2952,9 +2961,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32984293" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32984293" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32938644" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -2971,18 +2979,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/cat/zarpa/felix/sugar/MainActivity.java</url>
-          <line>67</line>
+          <line>72</line>
           <properties />
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/cat/zarpa/felix/sugar/MainActivity.java</url>
-          <line>68</line>
+          <line>73</line>
           <properties />
           <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="58" />
+      <option name="time" value="61" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -3020,35 +3028,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cat/zarpa/felix/sugar/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#1665#2008#0" expanded="true" />
-            <element signature="e#2007#2008#0" expanded="true" />
-            <element signature="e#2053#4424#0" expanded="true" />
-            <element signature="e#3873#3924#0" expanded="true" />
-            <element signature="e#4007#4056#0" expanded="true" />
-            <element signature="e#4185#4227#0" expanded="true" />
-            <element signature="e#4321#4374#0" expanded="true" />
-            <element signature="e#4423#4424#0" expanded="true" />
-            <element signature="method#SetMeasuring#0;class#MainActivity#0" />
-            <element signature="method#ShowToast#0;class#MainActivity#0" />
-            <element signature="method#LoadWidgets#0;class#MainActivity#0" />
-            <element signature="method#onCreateOptionsMenu#0;class#MainActivity#0" />
-            <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" />
-            <element signature="method#OpenInstagramProfile#0;class#MainActivity#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/zarpa/felix/sugar/ExampleInstrumentedTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -3071,14 +3050,14 @@
         <state relative-caret-position="342">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
-            <element signature="e#1665#2008#0" expanded="true" />
-            <element signature="e#2007#2008#0" expanded="true" />
-            <element signature="e#2053#4424#0" expanded="true" />
-            <element signature="e#3873#3924#0" expanded="true" />
-            <element signature="e#4007#4056#0" expanded="true" />
-            <element signature="e#4185#4227#0" expanded="true" />
-            <element signature="e#4321#4374#0" expanded="true" />
-            <element signature="e#4423#4424#0" expanded="true" />
+            <element signature="e#1769#2200#0" expanded="true" />
+            <element signature="e#2199#2200#0" expanded="true" />
+            <element signature="e#2245#4649#0" expanded="true" />
+            <element signature="e#4065#4116#0" expanded="true" />
+            <element signature="e#4199#4248#0" expanded="true" />
+            <element signature="e#4377#4419#0" expanded="true" />
+            <element signature="e#4513#4566#0" expanded="true" />
+            <element signature="e#4648#4649#0" expanded="true" />
             <element signature="method#SetMeasuring#0;class#MainActivity#0" />
             <element signature="method#ShowToast#0;class#MainActivity#0" />
             <element signature="method#LoadWidgets#0;class#MainActivity#0" />
@@ -3118,14 +3097,14 @@
         <state relative-caret-position="342">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
-            <element signature="e#1665#2008#0" expanded="true" />
-            <element signature="e#2007#2008#0" expanded="true" />
-            <element signature="e#2053#4424#0" expanded="true" />
-            <element signature="e#3873#3924#0" expanded="true" />
-            <element signature="e#4007#4056#0" expanded="true" />
-            <element signature="e#4185#4227#0" expanded="true" />
-            <element signature="e#4321#4374#0" expanded="true" />
-            <element signature="e#4423#4424#0" expanded="true" />
+            <element signature="e#1769#2200#0" expanded="true" />
+            <element signature="e#2199#2200#0" expanded="true" />
+            <element signature="e#2245#4649#0" expanded="true" />
+            <element signature="e#4065#4116#0" expanded="true" />
+            <element signature="e#4199#4248#0" expanded="true" />
+            <element signature="e#4377#4419#0" expanded="true" />
+            <element signature="e#4513#4566#0" expanded="true" />
+            <element signature="e#4648#4649#0" expanded="true" />
             <element signature="method#SetMeasuring#0;class#MainActivity#0" />
             <element signature="method#ShowToast#0;class#MainActivity#0" />
             <element signature="method#LoadWidgets#0;class#MainActivity#0" />
@@ -3164,14 +3143,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <element signature="e#1665#2008#0" expanded="true" />
-            <element signature="e#2007#2008#0" expanded="true" />
-            <element signature="e#2053#4424#0" expanded="true" />
-            <element signature="e#3873#3924#0" expanded="true" />
-            <element signature="e#4007#4056#0" expanded="true" />
-            <element signature="e#4185#4227#0" expanded="true" />
-            <element signature="e#4321#4374#0" expanded="true" />
-            <element signature="e#4423#4424#0" expanded="true" />
+            <element signature="e#1769#2200#0" expanded="true" />
+            <element signature="e#2199#2200#0" expanded="true" />
+            <element signature="e#2245#4649#0" expanded="true" />
+            <element signature="e#4065#4116#0" expanded="true" />
+            <element signature="e#4199#4248#0" expanded="true" />
+            <element signature="e#4377#4419#0" expanded="true" />
+            <element signature="e#4513#4566#0" expanded="true" />
+            <element signature="e#4648#4649#0" expanded="true" />
             <element signature="method#SetMeasuring#0;class#MainActivity#0" />
             <element signature="method#ShowToast#0;class#MainActivity#0" />
             <element signature="method#LoadWidgets#0;class#MainActivity#0" />
@@ -3196,14 +3175,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <element signature="e#1665#2008#0" expanded="true" />
-            <element signature="e#2007#2008#0" expanded="true" />
-            <element signature="e#2053#4424#0" expanded="true" />
-            <element signature="e#3873#3924#0" expanded="true" />
-            <element signature="e#4007#4056#0" expanded="true" />
-            <element signature="e#4185#4227#0" expanded="true" />
-            <element signature="e#4321#4374#0" expanded="true" />
-            <element signature="e#4423#4424#0" expanded="true" />
+            <element signature="e#1769#2200#0" expanded="true" />
+            <element signature="e#2199#2200#0" expanded="true" />
+            <element signature="e#2245#4649#0" expanded="true" />
+            <element signature="e#4065#4116#0" expanded="true" />
+            <element signature="e#4199#4248#0" expanded="true" />
+            <element signature="e#4377#4419#0" expanded="true" />
+            <element signature="e#4513#4566#0" expanded="true" />
+            <element signature="e#4648#4649#0" expanded="true" />
             <element signature="method#SetMeasuring#0;class#MainActivity#0" />
             <element signature="method#ShowToast#0;class#MainActivity#0" />
             <element signature="method#LoadWidgets#0;class#MainActivity#0" />
@@ -3229,14 +3208,14 @@
         <state relative-caret-position="1620">
           <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
           <folding>
-            <element signature="e#1665#2008#0" expanded="true" />
-            <element signature="e#2007#2008#0" expanded="true" />
-            <element signature="e#2053#4424#0" expanded="true" />
-            <element signature="e#3873#3924#0" expanded="true" />
-            <element signature="e#4007#4056#0" expanded="true" />
-            <element signature="e#4185#4227#0" expanded="true" />
-            <element signature="e#4321#4374#0" expanded="true" />
-            <element signature="e#4423#4424#0" expanded="true" />
+            <element signature="e#1769#2200#0" expanded="true" />
+            <element signature="e#2199#2200#0" expanded="true" />
+            <element signature="e#2245#4649#0" expanded="true" />
+            <element signature="e#4065#4116#0" expanded="true" />
+            <element signature="e#4199#4248#0" expanded="true" />
+            <element signature="e#4377#4419#0" expanded="true" />
+            <element signature="e#4513#4566#0" expanded="true" />
+            <element signature="e#4648#4649#0" expanded="true" />
             <element signature="method#SetMeasuring#0;class#MainActivity#0" />
             <element signature="method#ShowToast#0;class#MainActivity#0" />
             <element signature="method#LoadWidgets#0;class#MainActivity#0" />
@@ -3259,16 +3238,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values-en-rUS/strings.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu_main" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state />
@@ -3362,11 +3331,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="android-dummy:///home/felix/Documents/Android_Studio_Projects/sugar/app/Translations Editor">
-      <provider selected="true" editor-type-id="string-resource-editor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/cat/zarpa/felix/sugar/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -3416,17 +3380,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="270">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        <state relative-caret-position="290">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+          <folding>
+            <element signature="e#888#904#0" expanded="true" />
+            <element signature="e#936#954#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="android-dummy:///home/felix/Documents/Android_Studio_Projects/sugar/app/Translations Editor">
+      <provider selected="true" editor-type-id="string-resource-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sample.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -3435,17 +3435,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/cat/zarpa/felix/sugar/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
+        <state relative-caret-position="1782">
+          <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
           <folding>
-            <element signature="e#1665#2008#0" expanded="true" />
-            <element signature="e#2007#2008#0" expanded="true" />
-            <element signature="e#2053#4424#0" expanded="true" />
-            <element signature="e#3873#3924#0" expanded="true" />
-            <element signature="e#4007#4056#0" expanded="true" />
-            <element signature="e#4185#4227#0" expanded="true" />
-            <element signature="e#4321#4374#0" expanded="true" />
-            <element signature="e#4423#4424#0" expanded="true" />
+            <element signature="e#1769#2200#0" expanded="true" />
+            <element signature="e#2199#2200#0" expanded="true" />
+            <element signature="e#2245#4649#0" expanded="true" />
+            <element signature="e#4065#4116#0" expanded="true" />
+            <element signature="e#4199#4248#0" expanded="true" />
+            <element signature="e#4377#4419#0" expanded="true" />
+            <element signature="e#4513#4566#0" expanded="true" />
+            <element signature="e#4648#4649#0" expanded="true" />
             <element signature="method#SetMeasuring#0;class#MainActivity#0" />
             <element signature="method#ShowToast#0;class#MainActivity#0" />
             <element signature="method#LoadWidgets#0;class#MainActivity#0" />
