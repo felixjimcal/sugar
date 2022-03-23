@@ -45,7 +45,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Fèlix Jiménez Calvo** - *Initial work* - [felixjimcal](https://github.com/felixjimcal)
+* **Félix Jiménez Calvo** - *Initial work* - [felixjimcal](https://github.com/felixjimcal)
 
 ## License
 
